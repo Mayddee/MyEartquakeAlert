@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275548CE2BED6E7300A0F77E /* FacebookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275548CD2BED6E7300A0F77E /* FacebookView.swift */; };
+		276468822BEBC2F1001A28E0 /* My_EartquakeAlertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276468812BEBC2F1001A28E0 /* My_EartquakeAlertApp.swift */; };
+		276468842BEBC2F1001A28E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276468832BEBC2F1001A28E0 /* ContentView.swift */; };
+		276468862BEBC2F2001A28E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276468852BEBC2F2001A28E0 /* Assets.xcassets */; };
+		276468892BEBC2F2001A28E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276468882BEBC2F2001A28E0 /* Preview Assets.xcassets */; };
+		276468912BEBED4E001A28E0 /* RecentEarthquakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276468902BEBED4E001A28E0 /* RecentEarthquakesView.swift */; };
+		276468932BEBEDE8001A28E0 /* SafetyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276468922BEBEDE8001A28E0 /* SafetyView.swift */; };
+		276468952BEBF381001A28E0 /* EarthquakesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276468942BEBF381001A28E0 /* EarthquakesMapView.swift */; };
+		276468972BEBF92F001A28E0 /* EarthquakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276468962BEBF92F001A28E0 /* EarthquakeApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		275548CD2BED6E7300A0F77E /* FacebookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookView.swift; sourceTree = "<group>"; };
+		2764687E2BEBC2F1001A28E0 /* My EartquakeAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My EartquakeAlert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		276468812BEBC2F1001A28E0 /* My_EartquakeAlertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_EartquakeAlertApp.swift; sourceTree = "<group>"; };
+		276468832BEBC2F1001A28E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		276468852BEBC2F2001A28E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276468882BEBC2F2001A28E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		276468902BEBED4E001A28E0 /* RecentEarthquakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentEarthquakesView.swift; sourceTree = "<group>"; };
+		276468922BEBEDE8001A28E0 /* SafetyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyView.swift; sourceTree = "<group>"; };
+		276468942BEBF381001A28E0 /* EarthquakesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesMapView.swift; sourceTree = "<group>"; };
+		276468962BEBF92F001A28E0 /* EarthquakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2764687B2BEBC2F1001A28E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276468752BEBC2F1001A28E0 = {
+			isa = PBXGroup;
+			children = (
+				276468802BEBC2F1001A28E0 /* My EartquakeAlert */,
+				2764687F2BEBC2F1001A28E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2764687F2BEBC2F1001A28E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2764687E2BEBC2F1001A28E0 /* My EartquakeAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276468802BEBC2F1001A28E0 /* My EartquakeAlert */ = {
+			isa = PBXGroup;
+			children = (
+				2764688F2BEBE69A001A28E0 /* ContentViews */,
+				276468812BEBC2F1001A28E0 /* My_EartquakeAlertApp.swift */,
+				276468832BEBC2F1001A28E0 /* ContentView.swift */,
+				276468962BEBF92F001A28E0 /* EarthquakeApp.swift */,
+				276468852BEBC2F2001A28E0 /* Assets.xcassets */,
+				276468872BEBC2F2001A28E0 /* Preview Content */,
+			);
+			path = "My EartquakeAlert";
+			sourceTree = "<group>";
+		};
+		276468872BEBC2F2001A28E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				276468882BEBC2F2001A28E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2764688F2BEBE69A001A28E0 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				276468902BEBED4E001A28E0 /* RecentEarthquakesView.swift */,
+				276468922BEBEDE8001A28E0 /* SafetyView.swift */,
+				276468942BEBF381001A28E0 /* EarthquakesMapView.swift */,
+				275548CD2BED6E7300A0F77E /* FacebookView.swift */,
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2764687D2BEBC2F1001A28E0 /* My EartquakeAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2764688C2BEBC2F2001A28E0 /* Build configuration list for PBXNativeTarget "My EartquakeAlert" */;
+			buildPhases = (
+				2764687A2BEBC2F1001A28E0 /* Sources */,
+				2764687B2BEBC2F1001A28E0 /* Frameworks */,
+				2764687C2BEBC2F1001A28E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My EartquakeAlert";
+			productName = "My EartquakeAlert";
+			productReference = 2764687E2BEBC2F1001A28E0 /* My EartquakeAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276468762BEBC2F1001A28E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2764687D2BEBC2F1001A28E0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 276468792BEBC2F1001A28E0 /* Build configuration list for PBXProject "My EartquakeAlert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276468752BEBC2F1001A28E0;
+			productRefGroup = 2764687F2BEBC2F1001A28E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2764687D2BEBC2F1001A28E0 /* My EartquakeAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2764687C2BEBC2F1001A28E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276468892BEBC2F2001A28E0 /* Preview Assets.xcassets in Resources */,
+				276468862BEBC2F2001A28E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2764687A2BEBC2F1001A28E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276468842BEBC2F1001A28E0 /* ContentView.swift in Sources */,
+				276468912BEBED4E001A28E0 /* RecentEarthquakesView.swift in Sources */,
+				275548CE2BED6E7300A0F77E /* FacebookView.swift in Sources */,
+				276468952BEBF381001A28E0 /* EarthquakesMapView.swift in Sources */,
+				276468822BEBC2F1001A28E0 /* My_EartquakeAlertApp.swift in Sources */,
+				276468972BEBF92F001A28E0 /* EarthquakeApp.swift in Sources */,
+				276468932BEBEDE8001A28E0 /* SafetyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2764688A2BEBC2F2001A28E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2764688B2BEBC2F2001A28E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2764688D2BEBC2F2001A28E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"My EartquakeAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mad.My-EartquakeAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2764688E2BEBC2F2001A28E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"My EartquakeAlert/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show it on the map.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mad.My-EartquakeAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276468792BEBC2F1001A28E0 /* Build configuration list for PBXProject "My EartquakeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2764688A2BEBC2F2001A28E0 /* Debug */,
+				2764688B2BEBC2F2001A28E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2764688C2BEBC2F2001A28E0 /* Build configuration list for PBXNativeTarget "My EartquakeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2764688D2BEBC2F2001A28E0 /* Debug */,
+				2764688E2BEBC2F2001A28E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276468762BEBC2F1001A28E0 /* Project object */;
+}
